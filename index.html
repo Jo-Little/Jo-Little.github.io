@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business website</title>
+    <title>ERC organelle networks</title>
   </head>
   <body>
-    <nav>
-      <a href="./mito_er_vac.html">Vac_mito_er</a>
+	<div class = "header">
+		<h1>ERC organelle networks</h1>
+		<p>organelle associations defined by GO cellular compartment terms</p>
+	</div>
+	.header {
+	  padding: 80px; /* some padding */
+	  text-align: center; /* center the text */
+	  background: #000000; /* green background */
+	  color: white; /* white text color */
+	}
+
+	/* Increase the font size of the <h1> element */
+	.header h1 {
+	  font-size: 40px;
+	}
+    <div class="navbar">
+      <a href="./mito_er_vac.html">Vacuole,Mitochondria,ER</a>
       <a href="./endosome_network.html">endosome</a>
       <a href="./ER_network.html">endoplasmic_reticulum</a>
       <a href="./golgi_network.html">golgi_apparatus</a>
@@ -16,6 +31,29 @@
       <a href="./nucleus_network.html">nucleus</a>
       <a href="./peroxisome_network.html">peroxisome</a>
       <a href="./vacuole_network.html">vacuole</a>
-    </nav>
+    </div>
+	/* Style the top navigation bar */
+	.navbar {
+	  overflow: hidden; /* Hide overflow */
+	  background-color: #333333; /* Dark background color */
+	}
+
+	/* Style the navigation bar links */
+	.navbar a {
+	  float: left; /* Make sure that the links stay side-by-side */
+	  display: block; /* Change the display to block, for responsive reasons (see below) */
+	  color: white; /* White text color */
+	  text-align: center; /* Center the text */
+	  padding: 14px 20px; /* Add some padding */
+	  text-decoration: none; /* Remove underline */
+	}
+
+
+
+	/* Change color on hover/mouse-over */
+	.navbar a:hover {
+	  background-color: #ddd; /* Grey background color */
+	  color: black; /* Black text color */
+	}
   </body>
 </html>
